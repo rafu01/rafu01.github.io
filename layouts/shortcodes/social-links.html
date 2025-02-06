@@ -1,0 +1,88 @@
+<div class="social-links">
+    <a href="https://www.linkedin.com/in/nayeem-rafsan/" target="_blank">
+        <img class="theme-logo light" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg"
+            alt="LinkedIn" />
+        <img class="theme-logo dark" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg"
+            alt="LinkedIn Dark" />
+    </a>
+    <a href="https://github.com/rafu01" target="_blank">
+        <img class="theme-logo light" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
+            alt="GitHub" />
+        <img class="theme-logo dark" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
+            alt="GitHub Dark" />
+    </a>
+    <a href="https://codeforces.com/profile/rafu01" target="_blank">
+        <img class="theme-logo light" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codeforces.svg"
+            alt="Codeforces" />
+        <img class="theme-logo dark" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codeforces.svg"
+            alt="Codeforces Dark" />
+    </a>
+</div>
+
+<style>
+    .social-links {
+        display: flex;
+        gap: 15px;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .social-links a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-links img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .theme-logo.dark {
+        display: none;
+    }
+    
+    .dark-mode .theme-logo.light {
+        display: none;
+    }
+
+    .dark-mode .theme-logo.dark {
+        display: inline-block;
+        filter: invert(100%) sepia(8%) saturate(7414%) hue-rotate(312deg) brightness(102%) contrast(104%);
+        border: none;
+    }
+</style>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const body = document.body;
+        const lightModeBtn = document.getElementById("light-mode-btn");
+        const darkModeBtn = document.getElementById("dark-mode-btn");
+        let isDarkMode = localStorage.getItem("theme") === "dark";
+
+        function updateThemeButtons() {
+            if (isDarkMode) {
+                body.classList.add("dark-mode");
+                lightModeBtn.style.display = "block";
+                darkModeBtn.style.display = "none";
+            } else {
+                body.classList.remove("dark-mode");
+                lightModeBtn.style.display = "none";
+                darkModeBtn.style.display = "block";
+            }
+        }
+        updateThemeButtons();
+        lightModeBtn.addEventListener("click", function () {
+            isDarkMode = false;
+            localStorage.setItem("theme", "light");
+            updateThemeButtons();
+        });
+
+        darkModeBtn.addEventListener("click", function () {
+            isDarkMode = true;
+            localStorage.setItem("theme", "dark");
+            updateThemeButtons();
+        });
+    });
+</script>
