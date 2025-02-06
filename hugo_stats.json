@@ -41,7 +41,6 @@
       "copyright",
       "dark",
       "dark--hidden",
-      "dark-theme",
       "icon",
       "icon-tabler",
       "icon-tabler-menu-2",
@@ -60,7 +59,6 @@
       "layout",
       "light",
       "light--hidden",
-      "light-theme",
       "link--external",
       "logo",
       "logo__chevron",
@@ -78,8 +76,6 @@
       "post-meta",
       "sidebar",
       "social-links",
-      "theme-dark",
-      "theme-light",
       "theme-logo",
       "theme__toggle"
     ],
@@ -93,7 +89,6 @@
       "education",
       "experience",
       "light-mode-btn",
-      "links",
       "menu",
       "moneylionhttpswwwmoneylioncom--backend-engineer--nov-2024--present",
       "multi-vendor-e-commerce-sitehttpsgithubcomrafu01mens-world-cse470",
@@ -104,7 +99,6 @@
       "project",
       "replit-clonehttpsgithubcomrafu01online-code-editor",
       "socials",
-      "theme-toggle",
       "tools--technologies"
     ]
   }

@@ -7,6 +7,7 @@
   # Merge build config of the theme
   _merge = "deep"
 
+baseURL = "https://rafu01.github.io/"
 # This hopefully will be simpler in the future.
 # See: https://github.com/schnerring/hugo-theme-gruvbox/issues/16
 [module]
