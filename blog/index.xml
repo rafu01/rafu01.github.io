@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on </title>
-    <link>/blog/</link>
+    <link>//localhost:1313/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog Post</title>
-      <link>/blog/first_post/</link>
+      <link>//localhost:1313/blog/first_post/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/first_post/</guid>
+      <guid>//localhost:1313/blog/first_post/</guid>
       <description></description>
     </item>
   </channel>
