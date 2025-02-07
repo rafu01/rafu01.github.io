@@ -50,13 +50,13 @@ bKash is the largest Fintech company in Bangladesh, serving over 70 million peop
 - Used Socket.IO, AWS S3, Docker, Kubernetes, Vue.js, and TypeScript.
 - Created an on-demand Kubernetes cluster on Hetzner for session-based environments.
 
+#### [URL shortner](https://github.com/rafu01/surelink)
+- URL shortener using Go, Vue JS
+- Worked on the frontend.
+
 #### [Multi-Vendor E-commerce Site](https://github.com/rafu01/mens-world-cse470)
 - Java, Spring Boot, PostgreSQL, Bulma CSS.
 - Compared products from multiple vendors and facilitated purchases.
-
-#### [Online Car Showroom](https://github.com/rafu01/cse370-project)
-- Built using Python, Django, and MySQL.
-- Managed car listings with an integrated admin panel.
 
 ## Tools & Technologies
 - **Backend**: Java, Spring Boot, Project Reactor, Webflux, Python, Django, C++
